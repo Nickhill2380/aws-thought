@@ -1,5 +1,4 @@
 import React, { useState, useRef } from 'react';
-import { Redirect } from 'react-router';
 
 const ThoughtForm = () => {
   const [formState, setFormState] = useState({ username: '', thought: '' });
